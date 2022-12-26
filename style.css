@@ -1,0 +1,256 @@
+/* @import "buttons.css" */
+/* :root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+  button {
+    background-color: orange;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: red;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+*{ 
+  box-sizing: border-box;
+}
+
+body { 
+  background: #ee9f27;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  gap: 4rem;
+
+}
+
+h1 { 
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;  
+}
+
+header { 
+  display: flex; 
+  gap: 2rem; 
+  justify-content: center; 
+  flex-direction: row; 
+} 
+
+/* button { 
+  font-size: 2rem;
+  background: none; 
+  border: none; 
+  color: white; 
+} */
+
+.main-div { 
+  /* background-color: blue;  */
+  height: 50rem;
+  width: 50rem; 
+  padding-top: 5px; 
+  border: white solid;
+  border-radius: 8px;
+  margin: auto; 
+  margin-top: 3rem; 
+}
+/* 
+button:hover { 
+  opacity: 0.4; 
+  color: blue;
+  
+} */
+
+/* <!-- HTML !-->
+<button class="button-64" role="button"><span class="text">Button 64</span></button> */
+
+/* CSS */
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: red;
+  /* padding: 16px 24px; */
+  /* padding: 4px; */
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 30px;
+    min-width: 196px;
+  }
+}
+
+h2 { 
+  text-align: center; 
+  justify-content: center; 
+  color: white;
+  line-height: 50px;
+}
+
+img { 
+  width: 30rem;
+  height: 30rem; 
+  display: block; 
+  margin: auto;
+}
+
+.menuButtonDiv { 
+  /* background-color: blue;  */
+  height: 50rem;
+  width: 50rem; 
+  padding-top: 5px; 
+  border: white solid;
+  border-radius: 8px;
+  margin: auto; 
+  margin-top: 3rem; 
+}
+
+.menuImg { 
+  width: 26.5rem;
+  height: 20rem; 
+}
+
+.menuDiv2 { 
+  display: flex; 
+  flex-direction: row-reverse;
+}
+/* 
+.pContainer { 
+  display: flex; 
+  flex-direction: column;
+} */
+
+.menuImg2 { 
+  width: 20rem;
+  height: 20rem; 
+}
+
+.pDiv2  {
+  display: flex; 
+}
